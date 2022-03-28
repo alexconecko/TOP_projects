@@ -40,30 +40,26 @@ a {
 
 #first-bar {
     display: flex;
-    flex-direction: column;
     width: auto;
     height: 700px;
     margin: -10px;
     background-color: #1F2930;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 #first-bar .title {
     width: 270px;
-    display: flex;
     font-family: Roboto;
     font-size: 48px;
     color: #F9FAF8;
 }
 
 #first-bar .subtext {
-    width: 300px;
-    display: flex;
+    width: 270px;
     font-family: Roboto;
     font-size: 18px;
     color: #E5E7EB;
-    align-items: center;
+    
 }
 
 #first-bar .sign-up {
@@ -73,5 +69,11 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 20px;
+}
 
+#first-bar .image {
+    width: 700px;
+    height: 350px;
+    background-color: gray;
+    display: flex;
 }
