@@ -40,11 +40,14 @@ a {
 
 #first-bar {
     display: flex;
+    flex-direction: column;
     width: auto;
     height: 700px;
     margin: -10px;
     background-color: #1F2930;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 #first-bar .title {
@@ -69,11 +72,14 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 20px;
+    margin-right: 75px;
+    margin-top: 10px;
 }
 
-#first-bar .image {
+.image {
     width: 700px;
     height: 350px;
     background-color: gray;
     display: flex;
+    margin-left: auto;
 }
