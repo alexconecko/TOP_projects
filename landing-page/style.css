@@ -51,14 +51,14 @@ a {
 }
 
 #first-bar .title {
-    width: 270px;
+    width: 600px;
     font-family: Roboto;
     font-size: 48px;
     color: #F9FAF8;
 }
 
 #first-bar .subtext {
-    width: 270px;
+    width: 570px;
     font-family: Roboto;
     font-size: 18px;
     color: #E5E7EB;
@@ -76,10 +76,30 @@ a {
     margin-top: 10px;
 }
 
-.image {
-    width: 700px;
-    height: 350px;
-    background-color: gray;
+.random-title {
+    width: auto;
+    height: 50px;
     display: flex;
-    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: -80px;
+}
+
+#random {
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#random .box {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #3882F6;
 }
